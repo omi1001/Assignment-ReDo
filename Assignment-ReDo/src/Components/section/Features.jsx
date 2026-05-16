@@ -71,7 +71,17 @@ const Features = () => {
                     Specializations
                 </h3>
                 <div className="flex flex-wrap justify-center gap-4">
-                    <span className="bg-white/10 px-5 py-2 rounded-full border border-white/10 text-xs md:text-sm font-semibold">AI-Powered Business Finance</span>
+                    <motion.span 
+            whileHover={{ 
+              scale: 1.05, 
+              backgroundColor: "rgba(197, 160, 89, 0.25)", // Subtle gold transparency shift
+              borderColor: "#C5A059" 
+            }}
+            transition={{ type: "spring", stiffness: 400, damping: 15 }}
+            className="cursor-default bg-white/10 px-5 py-2.5 rounded-full border border-white/10 text-xs md:text-sm font-semibold transition-colors duration-200"
+          >
+            AI-Powered Business Finance
+          </motion.span>
                     <span className="bg-white/10 px-5 py-2 rounded-full border border-white/10 text-xs md:text-sm font-semibold">Marketing</span>
                     <span className="bg-white/10 px-5 py-2 rounded-full border border-white/10 text-xs md:text-sm font-semibold">Operations</span>
                 </div>
