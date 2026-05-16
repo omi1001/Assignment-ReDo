@@ -1,13 +1,17 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 /* smooth scrolling for anchor links */
 html{
   scroll-behavior: smooth; 
 }
 
-input:focus {
-  outline: none;
-  border-color: #c5a059 !important; /* custom rings for better form accessibility */
+:root{
+  background-color: white;
+  color: "002147";
+  
+}
+
+@theme{
+  --color-iim-navy: #002147;
+  --color-iim-gold: #c5a059;
 }
