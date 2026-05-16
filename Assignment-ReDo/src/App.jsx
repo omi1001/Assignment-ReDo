@@ -1,17 +1,15 @@
-import React from "react";
-import { motion } from "framer-motion";
-import Navbar from "./components/layout/Navbar";
-import Hero from "./Components/section/Hero"
+import React from 'react';
+import Navbar from './components/layout/Navbar';
+import Hero from './components/section/Hero';
+import Features from './components/section/Features';
 
 function App() {
   return (
-    <div className="min-h-screen bg-white font-sans antialiased text-slate-900">
-     
+    <div className="min-h-screen bg-slate-50 text-slate-900 overflow-x-hidden">
       <Navbar />
-      <section><Hero/></section>
-
-      
-      </div>
+      <Hero />
+      <Features />
+    </div>
   );
 }
 

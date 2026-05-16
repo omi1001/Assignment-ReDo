@@ -5,11 +5,7 @@ html{
   scroll-behavior: smooth; 
 }
 
-:root{
-  background-color: white;
-  color: "002147";
-  
-}
+
 
 @theme{
   --color-iim-navy: #002147;
