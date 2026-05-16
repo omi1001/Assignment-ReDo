@@ -17,7 +17,7 @@ const Navbar = () => {
             IIM <span className="text-iim-gold">Sirmaur</span>
           </span>
           <span className="text-[10px] font-semibold text-gray-400 tracking-wider uppercase">
-            Online MBA Portal
+            Online MBA in Data Science & AI
           </span>
         </div>
         {/* right side desktop menu */}

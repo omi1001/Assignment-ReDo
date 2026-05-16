@@ -92,7 +92,7 @@ const Eligibility = () => {
                     Application Deadline
                   </span>
                   <span className="text-lg font-extrabold text-iim-navy block mt-0.5">
-                    May 31, 2026
+                    July 31, 2026
                   </span>
                 </div>
               </div>

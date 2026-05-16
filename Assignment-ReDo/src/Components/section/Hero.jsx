@@ -12,13 +12,12 @@ const Hero = () =>{
         transition={{duration:0.6, ease: "easeOut"}} >
         {/* Headline */}
         <h1 className= "text-3xl font-extrabold text-iim-navy leaing-tight tracking-tight ">
-        First ever AI-Native MBA program in INDIA <br/>
+        India's first AI-Native MBA <br/>
         <span className= "text-gray-400 font-bold">for workling professionals </span>
         </h1>
         {/* Description */}
         <p className= "mt-6 text-base md:text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
-        Accelerate your career with a prestigious degree from IIM Sirmaur.
-        Learn cutting-edge business strategies without interrupting your current workflow.
+        Earn an MBA degree from IIM Sirmaur without quitting your job.
         </p>
         {/* CTA button */}
         <div className= "mt-10 flex flex-col sm:flex-row justify-center items-center gap-4">
