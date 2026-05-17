@@ -114,7 +114,7 @@ const Leads = () => {
                   </div>
                 </div>
 
-                {/* Full Name Input */}
+                {/* Designation Input */}
                 <div className="space-y-1.5">
                   <label className="text-xs font-bold text-gray-500 uppercase tracking-wider block">Current Designation</label>
                   <div className="relative flex items-center">
