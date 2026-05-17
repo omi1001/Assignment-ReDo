@@ -45,7 +45,7 @@ const Leads = () => {
               </div>
               <h3 className="text-2xl font-bold text-iim-navy">Application Started!</h3>
               <p className="text-gray-600 text-sm mt-3 leading-relaxed">
-                Thank you, <span className="font-semibold text-gray-800">{formData.fullName}</span>. An admissions counselor from LearningShala will contact you shortly on your provided coordinates to verify your profile.
+                Thank you, <span className="font-semibold text-gray-800">{formData.fullName}</span>. An admission counselor from LearningShala will contact you shortly on your provided contact to verify your profile.
               </p>
             </motion.div>
           ) : (

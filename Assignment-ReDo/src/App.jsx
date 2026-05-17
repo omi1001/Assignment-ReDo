@@ -4,6 +4,7 @@ import Hero from './components/section/Hero';
 import Features from './components/section/Features';
 import Eligibility from './Components/section/Eligibility';
 import Leads from './Components/section/Leads';
+import BacktoTop from './Utility/BacktoTop';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           reserved.
         </div>
       </footer>
+      <BacktoTop/>
     </div>
   );
 }

@@ -100,7 +100,7 @@ const Eligibility = () => {
               {/* Notice */}
               <div className="flex gap-3 bg-amber-50/60 border border-amber-100 p-4 rounded-xl">
                 <div className="text-amber-600 mt-0.5 flex-shrink-0">
-                  <AlertCircle size={18} />
+                   <AlertCircle size={18} /> {/*Alert Circle used for highlighting important notice */}
                 </div>
                 <p className="text-xs text-amber-800 leading-relaxed font-medium">
                   Seats are allocated on a first-come, first-served review cycle. Applications may close early if the executive cohort limits are reached.

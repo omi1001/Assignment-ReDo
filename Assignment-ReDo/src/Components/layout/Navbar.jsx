@@ -34,7 +34,7 @@ const Navbar = () => {
           {/* apply now button */}
           <a 
             href="#apply" 
-            className="bg-iim-navy text-white px-5 py-2 rounded-full font-bold text-sm hover:bg-iim-gold hover:text-iim-navy transition-all duration-300 flex items-center gap-1 shadow-sm"
+            className="bg-iim-navy text-white px-5 py-2 rounded-full font-bold text-sm hover:bg-iim-gold hover:text-white transition-all duration-300 flex items-center gap-1 shadow-sm"
           >
             Apply Now <ArrowRight size={14} />
           </a>
